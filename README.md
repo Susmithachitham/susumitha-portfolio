@@ -1,73 +1,181 @@
-# React + TypeScript + Vite
+# 🌐 Susmitha Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div align="center">
 
-Currently, two official plugins are available:
+### Personal Portfolio Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A modern, responsive, and interactive portfolio website built using **React**, **TypeScript**, and **Vite** to showcase skills, projects, achievements, and professional profile.
 
-## React Compiler
+[Live Demo](https://susmitha.vercel.app) • [GitHub Repository](https://github.com/Susmithachitham)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📖 Overview
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+This portfolio serves as a central platform to present my technical skills, projects, education, and professional journey. It is designed with a clean user interface, responsive layout, and optimized performance to provide an engaging user experience across all devices.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## ✨ Features
+
+* Modern and responsive UI
+* Fast performance powered by Vite
+* Built with React and TypeScript
+* Mobile-friendly design
+* Interactive project showcase
+* Skills and technology section
+* Contact information and social links
+* Optimized component architecture
+* Clean and maintainable codebase
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* TypeScript
+* HTML5
+* CSS3
+* JavaScript
+
+### Development Tools
+
+* Vite
+* Git
+* GitHub
+* VS Code
+
+### Deployment
+
+* Vercel
+
+---
+
+## 📂 Project Structure
+
+```bash
+susmitha-portfolio/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── styles/
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ⚙️ Installation
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Clone Repository
+
+```bash
+git clone https://github.com/Susmithachitham/susumitha-portfolio.git
 ```
+
+### Navigate to Project Directory
+
+```bash
+cd susumitha-portfolio
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## ▶️ Run Locally
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## 📦 Build for Production
+
+Generate optimized production files:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using **Vercel**.
+
+To deploy:
+
+```bash
+npm run build
+```
+
+Connect the repository to Vercel and deploy automatically on every push to the main branch.
+
+---
+
+## 👩‍💻 About the Developer
+
+**Susmitha**
+
+Computer Science Engineering Student passionate about:
+
+* Full Stack Development
+* Artificial Intelligence
+* Machine Learning
+* Modern Web Technologies
+* Software Engineering
+
+---
+
+## 🌐 Connect With Me
+
+* Portfolio: https://susmitha.vercel.app
+* GitHub: https://github.com/Susmithachitham
+* LinkedIn: https://www.linkedin.com/in/susmithachitham
+* Email: [susmithachitham@gmail.com](mailto:susmithachitham@gmail.com)
+
+---
+
+## 📄 License
+
+This project is intended for personal portfolio and educational purposes.
+
+---
+
+<div align="center">
+
+⭐ If you like this project, consider giving it a star.
+
+</div>
